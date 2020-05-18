@@ -32,7 +32,10 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
+::selection{
+	color: black;
+	background-color:#a0fde7 ;
+}
 ol, ul {
 	list-style: none;
 }
