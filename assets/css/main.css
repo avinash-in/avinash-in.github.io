@@ -3216,7 +3216,6 @@ body.is-ie #wrapper > section > .content > section {
   }
 }
 .heart {
-  font-size: 150px;
   animation: beat 0.6s infinite alternate;
   transform-origin: center;
 }
@@ -3224,9 +3223,9 @@ body.is-ie #wrapper > section > .content > section {
 /* Heart beat animation */
 @keyframes beat {
   to {
-    transform: scale(1.2);
+    transform: scale(0.9);
   }
 }
 .heart:hover {
-  animation: none;
+  animation:none;
 }
